@@ -11,8 +11,9 @@ public class App {
         
         Ejercicio1 ejercicio1 = new Ejercicio1();
         String texto = "COMPUTACION";
+        System.out.println("Normal" + " " + texto);
         String textoInvertido = ejercicio1.invertString(texto);
-        System.out.println(textoInvertido);
+        System.out.println("Invertido " + " " + textoInvertido);
 
     }
     private static void runStack() {
