@@ -15,6 +15,16 @@ public class App {
         String textoInvertido = ejercicio1.invertString(texto);
         System.out.println("Invertido " + " " + textoInvertido);
 
+        Ejercicio2 ejercicio2 = new Ejercicio2();
+
+        String palabra1 = "radar";
+        String palabra2 = "computacion";
+        String palabra3 = "anitalahuerfanita";
+
+        System.out.println( "ES PALINDROMO O NO :" + ejercicio2.esPalindromo(palabra1));
+        System.out.println("ES PALINDROMO O NO :" + ejercicio2.esPalindromo(palabra2));
+        System.out.println("ES PALINDROMO O NO :" + ejercicio2.esPalindromo(palabra3));
+
     }
     private static void runStack() {
         Stack <String> pila = new Stack<>();
@@ -88,5 +98,9 @@ public class App {
 
 
     }
+
+
+
+    
         
 }
